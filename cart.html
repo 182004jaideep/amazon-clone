@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amazon clone | Shopping Cart </title>
+    <link rel="stylesheet" type="text/css" href="styles/header.css">
+    <link rel="stylesheet" type="text/css" href="styles/home.css">
+    <link rel="stylesheet" type="text/css" href="styles/cart.css">
+    <link rel="stylesheet" type="text/css" href="styles/general.css">
+</head>
+<body>
+    <header class="amazon-header">
+      <div class="header-left-section">
+        <a href="index.html">
+          <img src="icons/amazon-logo-white.png" class="amazon-logo">
+        </a>
+      </div>
+
+      <div class="header-middle-section">
+        <input type="text" class="search-bar" placeholder="Search">
+        <button class="search-button">
+          <img src="icons/search-icon.png" class="search-icon">
+        </button>
+      </div>
+
+      <div class="header-right-section" >
+        <div class="nav-item">
+          <span class="text-line-1">Returns</span>
+          <span class="text-line-2">& Orders</span>
+        </div>
+        <a href="cart.html" class="cart-link">
+          <div class="cart-quantity">4</div>
+          <div class="cart-icon-container">
+            <img class="cart-icon" src="icons/cart-icon.png">
+          </div>
+          <div class="cart-text">Cart</div>
+        </a>
+      </div>
+    </header>
+    <main>
+      <div class="cart-page-container">
+        <div class="cart-left-section">
+          <h1 class="page-title">Shopping Cart</h1>
+
+          <div class="cart-item-container">
+            <div class="cart-item-details-grid">
+              <img class="product-image" src="images/intermediate-composite-basketball.jpg">
+              <div class="cart-item-details">
+                <div class="product-name">Intermediate Size Basketball</div>
+                <div class="product-price">$20.95</div>
+                <div class="product-quantity">
+                  Quantity: <span class="quantity-label">1</span>
+                  <span class="update-quantity-link">Update</span>
+                  <span class="delete-quantity-link">Delete</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cart-item-container">
+            <div class="cart-item-details-grid">
+              <img class="product-image" src="images/black-2-slot-toaster.jpg">
+              <div class="cart-item-details">
+                <div class="product-name">2 Slot Toaster - Black</div>
+                <div class="product-price">$18.78</div>
+                <div class="product-quantity">
+                  Quantity: <span class="quantity-label">1</span>
+                  <span class="update-quantity-link">Update</span>
+                  <span class="delete-quantity-link">Delete</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cart-item-container">
+            <div class="cart-item-details-grid">
+              <img class="product-image" src="images/6-piece-white-dinner-plate-set.jpg">
+              <div class="cart-item-details">
+                <div class="product-name">6 Piece White Dinner Plate Set</div>
+                <div class="product-price">$20.67</div>
+                <div class="product-quantity">
+                  Quantity: <span class="quantity-label">1</span>
+                  <span class="update-quantity-link">Update</span>
+                  <span class="delete-quantity-link">Delete</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cart-item-container">
+            <div class="cart-item-details-grid">
+              <img class="product-image" src="images/adults-plain-cotton-tshirt-2-pack-teal.jpg">
+              <div class="cart-item-details">
+                <div class="product-name">Adults Plain Cotton T-Shirt - 2 Pack</div>
+                <div class="product-price">$7.99</div>
+                <div class="product-quantity">
+                  Quantity: <span class="quantity-label">1</span>
+                  <span class="update-quantity-link">Update</span>
+                  <span class="delete-quantity-link">Delete</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-right-section">
+          <div class="payment-summary">
+            <div class="payment-summary-title">Order Summary</div>
+            
+            <div class="payment-summary-row">
+              <div>Items (4):</div>
+              <div class="payment-summary-money">$68.39</div>
+            </div>
+            
+            <div class="payment-summary-row">
+              <div>Shipping & handling:</div>
+              <div class="payment-summary-money">$4.99</div>
+            </div>
+
+            <div class="payment-summary-row total-row">
+              <div>Order total:</div>
+              <div class="payment-summary-money">$73.38</div>
+            </div>
+
+            <button class="place-order-button">Place your order</button>
+          </div>
+        </div>
+      </div>
+    </main>
+</html>

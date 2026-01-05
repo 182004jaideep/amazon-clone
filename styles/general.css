@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    /* Increase this from 80px to 100px to ensure the 
+       "Shopping Cart" title has breathing room. */
+    padding-top: 100px; 
+    font-family: Roboto, Arial, sans-serif;
+    background-color: #eaeded;
+}
+
+* {
+    box-sizing: border-box;
+}

@@ -1,0 +1,133 @@
+.cart-page-container {
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.cart-left-section {
+    flex: 1;
+}
+
+.page-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DDD;
+}
+
+/* Cart Item Grid */
+.cart-item-container {
+    background-color: white;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.cart-item-details-grid {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    column-gap: 20px;
+}
+
+.product-image {
+    width: 100%;
+    max-height: 120px;
+    object-fit: contain;
+}
+
+.product-name {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    color: #B12704;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* Quantity and Action Links */
+.cart-item-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-quantity {
+    font-size: 14px;
+    color: #f08804;
+}
+
+.update-quantity-link, 
+.delete-quantity-link {
+    color: #007185;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.update-quantity-link:hover, 
+.delete-quantity-link:hover {
+    color: #C45500;
+    text-decoration: underline;
+}
+
+/* Right Side Summary */
+.cart-right-section {
+    width: 310px;
+}
+
+.payment-summary {
+    background-color: white;
+    border: 1px solid #DDD;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.payment-summary-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.payment-summary-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.payment-summary-money {
+    text-align: right;
+}
+
+.total-row {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #DDD;
+    font-size: 18px;
+    font-weight: 700;
+    color: #B12704;
+}
+
+.place-order-button {
+    width: 100%;
+    background-color: #FFD814;
+    border: 1px solid #FCD200;
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+}
+
+.place-order-button:hover {
+    background-color: #F7CA00;
+}
